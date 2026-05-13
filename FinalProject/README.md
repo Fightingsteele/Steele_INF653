@@ -3,7 +3,7 @@
 ## Setup for local running instructions
 
 ### 1. Clone the Repository
-[git clone YOUR_GITHUB_REPOSITORY_URL](https://github.com/Fightingsteele/Steele_INF653/tree/main/FinalProject)
+https://github.com/Fightingsteele/Steele_INF653/tree/main/FinalProject
 
 ### 2. Open the Project folder
 cd FinalProject
