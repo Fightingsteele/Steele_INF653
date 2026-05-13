@@ -21,17 +21,20 @@ const eventSchema = new mongoose.Schema({
 
   seatCapacity: {
     type: Number,
-    required: true
+    required: true,
+    min: 1
   },
 
   bookedSeats: {
     type: Number,
-    default: 0
+    default: 0,
+    min: 0
   },
 
   price: {
     type: Number,
-    required: true
+    required: true,
+    min: 0
   }
 });
 
