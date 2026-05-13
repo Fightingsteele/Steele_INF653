@@ -1,18 +1,17 @@
 # Event Ticketing System API
 
-Setup for local running instructions
+## Setup for local running instructions
 
-1. Clone the Repository
+### 1. Clone the Repository
 [git clone YOUR_GITHUB_REPOSITORY_URL](https://github.com/Fightingsteele/Steele_INF653/tree/main/FinalProject)
 
-2. Open the Project folder
+### 2. Open the Project folder
 cd FinalProject
 
-3. 
-install dependencies
+### 3. install dependencies
 npm install
 
-4. 
+### 4. 
 Create a .env file in the root folder and add (MONGO_URI and JWT_SECRET should be changed):
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -23,7 +22,7 @@ PORT=5000
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/eventTicketDB?retryWrites=true&w=majority
 JWT_SECRET=mysecretkey
 
-5. Start server
+### 5. Start server
 npm run dev
 
 
